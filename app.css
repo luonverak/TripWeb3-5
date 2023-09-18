@@ -1,0 +1,160 @@
+
+.page-header{
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-page{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.search-page input{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.buttonIn {
+    width: 300px;
+    position: relative;
+}
+input {
+    width: 100%;
+    padding-left: 10px;
+}
+#icon-search{
+    position: absolute;
+    right: 0px;
+    height: 80%;
+    border: none;
+    color: white;
+    background-color: #1e90ff;
+}
+.buttonIn button{
+    margin: 5px;
+}
+.middle-screen{
+    width: 100%;
+    height: 100vh;
+    background-image:url(image/trip.png);
+    position: fixed;
+
+}
+.sign-in{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* background-color: aquamarine; */
+}
+.sign-in ul li{
+    list-style-type: none;
+    display: inline-block
+}
+.sign-in ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+.sign-in ul li a:hover{
+    background-color:rgba(255, 255, 255, 0.367);
+    border-radius: 10px;
+}
+.sign-in ul li:nth-child(5) a:hover  {
+    background-color: transparent;
+
+}
+.sign-in ul li:nth-child(6) a:hover {
+    background-color: transparent;
+}
+.sign-in ul li:nth-child(5) button{
+    background-color: rgba(255, 255, 255, 0.395);
+    border: none;
+    color: white;
+}
+.sign-in ul li:nth-child(5):hover button {
+    background-color:white;
+    border: none;
+    color: blue;
+}
+.sign-in ul li:nth-child(6):hover button {
+    background-color: white;
+    border: none;
+    color: blue;
+}
+.sign-in ul{
+    margin: 0;
+    padding: 0;
+}
+.page-menu ul li{
+    list-style-type: none;
+    display: inline-block
+}
+.page-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    opacity: 0.8;
+    position: relative;
+    display: block;
+}
+.page-menu ul li a:hover {
+    opacity: 1;
+}
+.page-menu ul li a::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0px;
+    bottom: 0;
+    transition: all 0.6s;
+}
+.page-menu ul li a:hover::before{
+    width: 70%;
+}
+.status{
+    width: 60%;
+    height: 300px;
+    /* background-color: white; */
+    z-index: 11;
+    position: absolute;
+    top: 20vh;
+    left: 35vh;
+}
+.text-box h1{
+    display: flex;
+    justify-content: center;
+}
+.text-box{
+    height: 50%;
+    width: 100%;
+    background-color: transparent;
+}
+.booking{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    top: 18vh;
+    position: absolute;
+}
+.stack{
+    width: 80%;
+    height: 50px;
+    background-color: grey;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    left: 10vh;
+}
